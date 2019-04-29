@@ -5,14 +5,16 @@
 
 设置收件人，发送正文给目标邮箱
 
-![发邮件](C:\Users\lenovo123\Desktop\发邮件.png)
+![发邮件](https://github.com/15574946385/MyMail/blob/master/img/%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E5%8E%9F%E7%90%86.png)
 
-![确定发送](C:\Users\lenovo123\Desktop\确定发送.png)
+![确定发送](https://github.com/15574946385/MyMail/blob/master/img/%E5%8F%91%E9%82%AE%E4%BB%B6.png
+)
 
-![收到邮件](C:\Users\lenovo123\Desktop\收到邮件.png)
+![收到邮件](Chttps://github.com/15574946385/MyMail/blob/master/img/%E6%94%B6%E5%88%B0%E9%82%AE%E4%BB%B6.png
+)
 
 
 
 原理
 
-![1556516219769](C:\Users\lenovo123\AppData\Roaming\Typora\typora-user-images\1556516219769.png)
+![1556516219769](https://github.com/15574946385/MyMail/blob/master/img/%E7%A1%AE%E5%AE%9A%E5%8F%91%E9%80%81.png)
