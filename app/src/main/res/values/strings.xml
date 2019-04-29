@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyMail</string>
+    <string name="title_activity_garbage">GarbageActivity</string>
+    <string name="title_activity_send_sucsessful">SendSucsessfulActivity</string>
+    <string name="subject">主题:</string>
+
+
+</resources>

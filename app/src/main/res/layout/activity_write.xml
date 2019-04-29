@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteActivity">
+
+    <TextView
+        android:id="@+id/getMail_man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="108dp"
+        android:text="收件人:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sendMail_man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="发件人:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/getMail_man"
+        app:layout_constraintStart_toStartOf="@+id/getMail_man"
+        app:layout_constraintTop_toBottomOf="@+id/getMail_man" />
+
+    <TextView
+        android:id="@+id/write_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="写邮件"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/getMail_man_plain"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/write_mail"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="@+id/write_mail"
+        app:layout_constraintTop_toBottomOf="@+id/write_mail" />
+
+    <EditText
+        android:id="@+id/subject_plain"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/sendMail_man_plain2"
+        app:layout_constraintStart_toStartOf="@+id/sendMail_man_plain2"
+        app:layout_constraintTop_toBottomOf="@+id/sendMail_man_plain2" />
+
+    <EditText
+        android:id="@+id/sendMail_man_plain2"
+        android:layout_width="282dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/getMail_man_plain"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/getMail_man_plain"
+        app:layout_constraintTop_toBottomOf="@+id/getMail_man_plain" />
+
+    <TextView
+        android:id="@+id/subject_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/subject"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/sendMail_man"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="@+id/sendMail_man"
+        app:layout_constraintTop_toBottomOf="@+id/sendMail_man"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/send_mail_btn"
+        style="@style/button_style"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="64dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <!--minLines表示最大行数-->
+    <!--gravity表示从上往下输入-->
+    <!--textMultiLine表示换行-->
+    <EditText
+        android:id="@+id/email_content"
+        android:layout_width="379dp"
+        android:layout_height="314dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="160dp"
+
+        android:ems="10"
+        android:gravity="top"
+        android:hint="正文"
+        android:inputType="textMultiLine"
+        android:minLines="5"
+        android:textColor="@color/black"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/add_file"
+        style="@style/button_style"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="@+id/send_mail_btn"
+        app:layout_constraintEnd_toStartOf="@+id/send_mail_btn"
+        app:layout_constraintTop_toTopOf="@+id/send_mail_btn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:contentDescription="TODO" />
+
+</android.support.constraint.ConstraintLayout>
