@@ -9,6 +9,8 @@
 
 ![原理](https://github.com/15574946385/MyMail/blob/master/img/%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6%E5%8E%9F%E7%90%86.png)
 
+在模拟器上做得，发送邮件，确认发送，收到邮件
+
 ![发邮件](https://github.com/15574946385/MyMail/blob/master/img/%E5%8F%91%E9%82%AE%E4%BB%B6.png
 )
 ![确认发送](https://github.com/15574946385/MyMail/blob/master/img/%E7%A1%AE%E5%AE%9A%E5%8F%91%E9%80%81.png)
