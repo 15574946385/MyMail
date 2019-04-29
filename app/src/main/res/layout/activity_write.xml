@@ -48,6 +48,7 @@
         android:id="@+id/getMail_man_plain"
         android:layout_width="282dp"
         android:layout_height="49dp"
+        android:text="chensong18307@foxmail.com"
         android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="textPersonName"
